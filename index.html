@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="todo">
+
+        <div class="header">
+            <h1>Todo Application</h1>
+        </div>
+
+        <div class="input-container">
+            <input id="input" placeholder="Enter Data" type="text">
+            <button onclick="addtodo()" id="button" class="button">ADD </button>
+        </div>
+
+        <ul id="todo-list">
+            <!-- <li class="list-item">
+                <span id="ctn">content</span>
+                <button>&#10003;</button>
+                <button>&#10006;</button>
+            </li> -->
+        </ul>
+
+    </div>
+    <br><br><br>
+    <button id="logout">Logout</button>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="app.js"></script>
+</html>
